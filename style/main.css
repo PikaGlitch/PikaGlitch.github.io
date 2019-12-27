@@ -12,9 +12,23 @@ body{
     left: 0;
 }
 header{
-    padding: 30vw;
+    height: 100vw;
     text-align: center;
     font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    height: 40%;
+    width: 40%
+
+}
+
+.title img{
+    width: 100%;
+    height: auto;
 }
 
 .container {
