@@ -1,0 +1,46 @@
+body{
+    background: black;
+    color: yellow;
+    cursor: url('../media/totoro.cur'), auto;
+}
+
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+header{
+    padding: 30vw;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.container div{
+    background: #ffffff22;
+    margin: 1px;
+}
+
+.item1 { grid-area: 1 / 3 / 2 / 9;
+    height: 15vw;
+}
+.item2 { grid-area: 1 / 1 / 13 / 3; }
+.item3 { grid-area: 2 / 3 / 8 / 9; }
+.item4 { grid-area: 8 / 4 / 11 / 8; }
+.item5 { grid-area: 11 / 3 / 13 / 6; }
+.item6 { grid-area: 11 / 6 / 13 / 9; }
+.item7 { grid-area: 8 / 8 / 9 / 9; }
+.item8 { grid-area: 9 / 8 / 10 / 9; }
+.item9 { grid-area: 10 / 8 / 11 / 9; }
+.item10 { grid-area: 8 / 3 / 9 / 4; }
+.item11 { grid-area: 9 / 3 / 10 / 4; }
+.item12 { grid-area: 10 / 3 / 11 / 4; }
