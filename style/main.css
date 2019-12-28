@@ -1,7 +1,7 @@
 body{
     background: black;
     font-family: Comic Sans MS !important;
-    background-image: url("../media/glitch.gif");
+    background-image: url("../media/glitchpaper.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -20,7 +20,8 @@ a{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #000000aa;
+    background-color: #000000cc;
+    padding-bottom: 5px;
 }
 header{
     height: 50vw;
@@ -47,6 +48,7 @@ header{
     grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin: 5px;
 }
 
 .container img{
@@ -71,6 +73,7 @@ header{
 .item1 img{
     width: 20%;
     height: auto;
+    margin-top: 3%;
 }
 .item2 { grid-area: 1 / 1 / 13 / 3;
 }
@@ -82,13 +85,14 @@ header{
 
 .item3 { grid-area: 2 / 3 / 8 / 9;
     padding: 0px;
+    font-size: 16px;
 }
 .item3 img{
     width: 30%;
     height: auto;
 }
 
-#scrollbox{
+#scrollbox3{
   height: 70vw;
   width: 100%;
   overflow: auto;
@@ -110,3 +114,20 @@ header{
 .item10 { grid-area: 8 / 3 / 9 / 4; }
 .item11 { grid-area: 9 / 3 / 10 / 4; }
 .item12 { grid-area: 10 / 3 / 11 / 4; }
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ff000066;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff000033;
+  border-radius: 10px;
+}
