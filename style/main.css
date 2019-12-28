@@ -11,6 +11,10 @@ body{
     font-size: 1.5vw;
 }
 
+a{
+    color: yellow;
+}
+
 .page{
     width: 100%;
     height: 100%;
