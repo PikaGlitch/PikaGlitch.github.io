@@ -76,26 +76,33 @@ header{
 }
 
 .item2 img{
-    width: 30%;
+    width: 40%;
     height: auto;
 }
 
 .item3 { grid-area: 2 / 3 / 8 / 9;
-    padding: 5px;
-    overflow: auto;
+    padding: 0px;
 }
 .item3 img{
-    width: 15%;
+    width: 30%;
     height: auto;
 }
+
+#scrollbox{
+  height: 70vw;
+  width: 100%;
+  overflow: auto;
+  border: none;
+}
+
 .item4 { grid-area: 8 / 4 / 11 / 8;
-    text-align: center;
+
 }
 .item5 { grid-area: 11 / 3 / 13 / 6;
-    text-align: center;
+
 }
 .item6 { grid-area: 11 / 6 / 13 / 9;
-    text-align: center;
+
 }
 .item7 { grid-area: 8 / 8 / 9 / 9; }
 .item8 { grid-area: 9 / 8 / 10 / 9; }
