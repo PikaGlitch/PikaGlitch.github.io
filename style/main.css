@@ -74,9 +74,19 @@ header{
 }
 .item2 { grid-area: 1 / 1 / 13 / 3;
 }
+
+.item2 img{
+    width: 40%;
+    height: auto;
+}
+
 .item3 { grid-area: 2 / 3 / 8 / 9;
     padding: 5px;
     overflow: auto;
+}
+.item3 img{
+    width: 20%;
+    height: auto;
 }
 .item4 { grid-area: 8 / 4 / 11 / 8;
     text-align: center;
