@@ -1,6 +1,6 @@
 body{
     background: black;
-    font-family: "Comic Sans MS";
+    font-family: Comic Sans MS !important;
     background-image: url("../media/glitch.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
