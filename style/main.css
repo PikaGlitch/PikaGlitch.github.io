@@ -69,6 +69,7 @@ header{
     height: auto;
 }
 .item2 { grid-area: 1 / 1 / 13 / 3;
+    text-align: center;
 }
 .item3 { grid-area: 2 / 3 / 8 / 9;
     overflow: auto;
