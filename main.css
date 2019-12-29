@@ -83,6 +83,13 @@ header{
     height: auto;
 }
 
+#scrollbox2{
+  height: 140vw;
+  width: 100%;
+  overflow: auto;
+  border: none;
+  font-size: 16px;
+}
 
 .item3 { grid-area: 2 / 3 / 8 / 9;
     padding: 0px;
