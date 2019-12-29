@@ -1,12 +1,12 @@
 body{
     background: black;
     font-family: Comic Sans MS !important;
-    background-image: url("../media/glitchpaper.jpg");
+    background-image: url("https://pikaglitch.github.io/style/glitchpaper.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color: yellow;
-    cursor: url('../media/totoro.cur'), auto;
+    cursor: url('https://pikaglitch.github.io/style/pika.cur'), auto;
     margin: 0;
     font-size: 1.5vw;
 }
